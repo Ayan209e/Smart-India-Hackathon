@@ -1,10 +1,11 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import Catalog from '@/components/Catalog';
+import Slider from '@/components/Slider';
 
 export default function Home() {
   return (
-    <div>Hello welcome to the development journey of Whsipers of India. This team is going to make something really great.</div>
+    <>
+      <Slider/>
+      <Catalog/>
+    </>
   )
 }
